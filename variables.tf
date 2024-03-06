@@ -52,7 +52,3 @@ variable "associate_public_ip_address" {
   description = "Associate a public IP address with an instance in a VPC"
   type        = bool
 }
-
-variable "ami_id" {
-  type = string
-}
